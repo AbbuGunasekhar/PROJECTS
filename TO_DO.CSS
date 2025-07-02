@@ -1,0 +1,92 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: blueviolet;
+}
+lable h1
+{
+    text-align: center;
+    color: whitesmoke;
+}
+.main
+{
+    text-align: center;
+    margin-top:10%;
+}
+#text
+{
+    width:2%;
+    height:5vh;
+    border:3px solid rgb(214, 68, 95);
+    border-radius: 15px;
+    transition: 3s;
+}
+
+#add
+{
+    margin-left: 10px;
+    width:10%;
+    height:5vh;
+    background-color: rgb(10, 255, 180);
+    font-size: large;
+    border-radius: 10px;
+    color: rgb(5, 5, 5);
+    transition: 1.5s;
+    box-shadow: 0 0 4px #00f,0 0 5px #0f0,0 0 6px #f00;
+    border: 2px solid lightseagreen;
+    background-color: wheat;
+}
+#add:hover
+{
+    width: 10.5%;
+    box-shadow: 7px 5px 20px rgb(230, 95, 5),12px 5px 20px hwb(249 0% 0%),7px 5px 20px rgb(209, 245, 5);
+     cursor: pointer;
+     transform: scale(1.1);
+}
+#clear
+{
+    margin-left: 10px;
+    width:10%;
+    height:5vh;
+    background-color: rgb(10, 255, 180);
+    font-size: large;
+    border-radius: 10px;
+    color: rgb(5, 5, 5);
+    transition: 1.5s;
+    box-shadow: 0 0 4px #00f,0 0 5px #0f0,0 0 6px #f00;
+    border: 2px solid lightseagreen;
+    background-color: wheat;
+}
+#clear:hover
+{
+    width: 10.5%;
+    box-shadow: 7px 5px 20px rgb(230, 95, 5),12px 5px 20px hwb(249 0% 0%),7px 5px 20px rgb(209, 245, 5);
+     cursor: pointer;
+     transform: scale(1.1);
+}
+.tasks
+{
+    flex-direction: column;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+   width:50%;
+ 
+    margin: auto;
+}
+.tasks table
+{
+    margin-top: 10%;
+    border-collapse: collapse;
+    border:2px solid rgb(81, 238, 18);
+   /* display: none*/
+}
+.tasks table td
+{
+    
+   width:200px;
+}

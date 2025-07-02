@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+
+    <link rel="stylesheet" href="TO_DO.CSS">
+</head>
+<body>
+   <lable for="text">
+    <h1>TO DO LIST</h1></lable>
+
+    <div class="main">
+   <input type="text" name="text" id="text" placeholder="Enter the Task:" onclick="expand()">
+   <input type="button" value="ADD" id="add" onclick="fun()" >
+   <input type="button" value="CLEAR" id="clear" onclick="delet()" >
+   
+ 
+   </div>
+
+   <div class="tasks">
+
+    <table border="1" id="table">
+        <tr>
+            <td>Task Number</td>
+            <td>Task </td>
+            <td>Status</td>
+            <td>Delete Task</td>
+        </tr>
+    </table>
+   </div>
+   <script src="TO_DO.js"></script>
+</body>
+</html>
