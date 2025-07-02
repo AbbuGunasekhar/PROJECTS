@@ -1,6 +1,7 @@
 var text=document.getElementById("text");
 var tasks=document.getElementsByClassName("tasks");
  var table=document.getElementById("table");
+//  var dall=document.getElementById("delall");
 var task_num=1;
 
 function delet()
@@ -10,12 +11,16 @@ function delet()
 
 function fun()
 {
+    // if(dall.style.display=="none")
+    // {
+    //     dall.style.display="block";
+    //     dall.style.margin="auto";
+    // }
     table.style.display="block";
 
    if(text.value!=""){
 
-    table.style.border="1px solid orange";
-    table.style.borderCollapse="collapse";
+
     var row=document.createElement("tr");
 
     var c1=document.createElement("td");
@@ -37,7 +42,9 @@ function fun()
 
 
     c3.append(check1);
-    c3.append("Completed")
+    let span=document.createElement("span");
+    span.textContent="Completed"
+    c3.append(span);
 
     row.appendChild(c1);
      row.appendChild(c2);
@@ -107,6 +114,11 @@ for(var i=1;i<allrows.length;i++)
 }
    task_num=allrows.length;
 
-
-   
 }
+
+
+// function delall()
+// {
+//     dall.style.display="none";
+//     table.innerHTML="";
+// }
