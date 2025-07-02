@@ -74,11 +74,12 @@ function del()
          if(first=="")
          {
             s=s.substring(1,s.length);
-            var first=s.split("-")[0];
+            var first="-"+s.split("-")[0];
          var second=s.split("-")[1];
          }
          console.log(first+" "+second);
             var ans=Number(first)-Number(second);
+           
        val.value=ans;
     }
  }
