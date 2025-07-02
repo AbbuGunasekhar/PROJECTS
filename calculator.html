@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+   
+
+    <div class="main">
+        
+<input type="text" id="inp" > 
+    <div class="row">
+        <div onclick="ac()">AC</div>
+        <div onclick="del()">DEL</div>
+        <div onclick="display(event)">%</div>
+        <div onclick="display(event)">/</div>
+    </div>
+ 
+<div class="row">
+        <div onclick="display(event)">7</div>
+        <div onclick="display(event)">8</div>
+        <div onclick="display(event)">9</div>
+        <div onclick="display(event)">*</div>
+</div>
+        
+<div class="row">
+         <div onclick="display(event)">4</div>
+        <div onclick="display(event)">5</div>
+        <div onclick="display(event)">6</div>
+        <div onclick="display(event)">+</div>
+</div>
+        
+<div class="row">
+        <div onclick="display(event)">1</div>
+        <div onclick="display(event)">2</div>
+        <div onclick="display(event)">3</div>
+        <div onclick="display(event)" >-</div>
+</div>
+       
+<div class="row">
+        <div onclick="display(event)">0</div>
+        <div onclick="display(event)">00</div>
+        <div onclick="display(event)">.</div>
+        <div onclick="result()">=</div>
+</div>
+      
+    </div>
+<script src="calculator.js"></script>
+   
+</body>
+</html>
