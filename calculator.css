@@ -48,8 +48,12 @@ input
 .row div:hover
 {
     color: whitesmoke;
-    font-size: x-large;
+   
     cursor: pointer;
-   transform: scale(1.1);
+ 
+}
+.row div:active
+{
+ 
    box-shadow: 2px 3px 2px black;
 }
