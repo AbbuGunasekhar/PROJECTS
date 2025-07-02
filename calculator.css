@@ -7,7 +7,6 @@
 .main
 {
     height:50%;
-    border:2px solid black;
     display: flex;
     flex-direction: column;
  text-align: center;
@@ -15,6 +14,11 @@
     align-items: center;
     box-sizing: border-box;
     margin: auto;
+}
+.sub
+{
+    margin-top: 7%;
+    border: 2px solid green;
 }
 .row
 {
@@ -43,6 +47,8 @@ input
 
 .row div:hover
 {
+    color: whitesmoke;
+    font-size: x-large;
     cursor: pointer;
    transform: scale(1.1);
    box-shadow: 2px 3px 2px black;
