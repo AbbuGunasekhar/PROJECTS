@@ -3,9 +3,11 @@
     padding: 0;
     margin: 0;
 }
+
 body
 {
     background-color: blueviolet;
+    
 }
 lable h1
 {
@@ -86,8 +88,12 @@ lable h1
 }
 .tasks table td
 {
-    
-   width:200px;
+    word-wrap: break-word;
+ 
+ flex-wrap: wrap;
+ min-width: 100px;
+ max-width: 300px;
+
 }
 
 #last
