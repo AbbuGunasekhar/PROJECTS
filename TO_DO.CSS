@@ -19,7 +19,7 @@ lable h1
 }
 #text
 {
-    width:2%;
+    width:8%;
     height:5vh;
     border:3px solid rgb(214, 68, 95);
     border-radius: 15px;
@@ -74,14 +74,13 @@ lable h1
     display: flex;
     color: white;
     justify-content: space-evenly;
-   width:50%;
- 
+   width:70%;
+ align-items: center;
     margin: auto;
 }
 .tasks table
 {
     margin-top: 10%;
-    border-collapse: collapse;
     border:2px solid rgb(81, 238, 18);
    /* display: none*/
 }
@@ -90,3 +89,26 @@ lable h1
     
    width:200px;
 }
+
+#last
+{
+    margin-top: 10%;
+ text-align: center;
+
+}
+#last input
+{
+     background-color:grey ;
+ border-radius: 10px;
+ padding:10px;
+ color: aliceblue;
+ transition: 1s;
+}
+
+/* #last input:hover
+{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    transform: scale(1.1);
+} */
