@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    top:0;
+}
+nav{
+    background-color: #fd6569;
+    padding: 10px;
+}
+.container
+{
+    
+    margin-top:10px;
+}
+.book-container
+{
+    display: inline-block;
+    margin: 20px;
+    background-color: #0f0f0f;
+    padding:20px;
+    width:25%;
+    vertical-align: top;
+    border-radius: 10px;
+    color: white;
+}
+.book-container h2
+{
+    color: #fd6569;
+    margin-bottom: 10px;
+}
+.book-container h4
+{
+    color: #fd65b9;
+    margin-bottom: 10px;
+}
+
+.book-container button
+{
+    margin-top: 20px;
+    background-color:#fd6569;
+    font-size: larger;
+    color: rgb(17, 2, 2);
+    padding-left:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 10px;
+    border: none;
+}
+#add-btn
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100%;
+    background-color: #fd6569;
+    position: fixed;
+    top: 80%;
+    font-size: 50px;
+    right:30px;
+    width:80px;
+    border: none;
+    z-index: 1;
+    
+}
+.popup-overlay
+{
+    opacity:0.8;
+    z-index: 2;
+    position:absolute;
+    background-color:black;
+    width:100%;
+    height:100%;
+    display: none;
+}
+.popup-box
+{
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    width:35%;
+    background-color: #fd6569;
+    top:30%;
+    left:30%;
+    border-radius: 10px;
+    display: none;
+    padding: 20px;
+}
+
+.popup-box input{
+    background: transparent;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.popup-box input::placeholder
+{
+    color:rgb(10, 10, 10);
+}
+.popup-box textarea::placeholder
+{
+    color:rgb(10, 10, 10);
+}
+
+.popup-box input:focus
+{
+    outline: none;
+}
+.popup-box textarea:focus
+{
+    outline: none;
+}
+.popup-box textarea
+{
+    
+    margin-top: 10px;
+    background: transparent;
+    width:100%;
+    border: 2px solid black;
+}
+.popup-box button
+{
+    margin-top: 20px;
+    background-color: black;
+    font-size: larger;
+    color: white;
+    padding-left:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 10px;
+    margin-left:50px ;
+}
+
+.addcancel
+{
+    display: block;
+}
+
+button:hover
+{
+    cursor: pointer;
+}
