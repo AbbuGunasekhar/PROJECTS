@@ -1,3 +1,34 @@
+@media screen and (max-width: 768px) {
+    #home-signup,
+    #home-signin {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        right: auto;
+        margin: 10px;
+    }
+
+    #home-signup {
+        right: 130px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #home-signup,
+    #home-signin {
+        width: 90px;
+        height: 25px;
+        font-size: 12px;
+        margin: 8px;
+        top: 5px;
+    }
+
+    #home-signup {
+        right: 110px;
+    }
+}
+
+
 body
 {
     left:0;
@@ -7,7 +38,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/*
 td{
  text-align: right;   
 }
@@ -66,7 +97,7 @@ border-radius: 15px;
     cursor: pointer;
     border: 1px solid black;
 }
-
+*/
 
 
 
