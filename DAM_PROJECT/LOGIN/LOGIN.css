@@ -28,16 +28,17 @@
     }
 }
 
-
-body
-{
-    left:0;
+   body {
     margin: 0;
+    left: 0;
     overflow: hidden;
+    min-height: 100vh;
     background-image: url(https://png.pngtree.com/background/20230614/original/pngtree-large-dam-with-water-running-out-of-it-picture-image_3501597.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
+
 /*
 td{
  text-align: right;   
