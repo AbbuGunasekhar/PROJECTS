@@ -1,0 +1,161 @@
+body
+{
+    left:0;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(https://png.pngtree.com/background/20230614/original/pngtree-large-dam-with-water-running-out-of-it-picture-image_3501597.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+td{
+ text-align: right;   
+}
+
+
+.body{
+     display: flex;
+     justify-content: center;
+     margin-top: 25vh;
+     display: none;
+     
+}
+.main
+{
+    padding: 40px;
+ background-color: #fd6568;
+ border-radius: 15px;
+ 
+}
+
+.main table
+{
+border-radius: 15px;
+}
+.main #signin-heading
+{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+.main table
+{
+    border-spacing: 25px;
+}
+.main input[type="text"],input[type="password"]
+{
+  background: transparent;
+  border-radius: 7px;
+  height: 20px;
+   
+}
+
+#signin-btn
+{
+    background-color:#db1661;
+    width:50%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(0, 12, 8);
+    margin-right: 60px;
+}
+#signin-btn:hover
+{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.body2{
+     display: flex;
+     justify-content: center;
+     margin-top: 20vh;
+     align-items: center;
+     display: none;
+}
+.main2
+{
+    padding: 40px;
+ background-color: #fd6568;
+ border-radius: 15px;
+}
+.main2 table
+{
+border-radius: 15px;
+}
+.main2 #signup-heading
+{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+.main2 table
+{
+    border-spacing: 25px;
+}
+.main2 input[type="text"]
+{
+  background: transparent;
+  border-radius: 7px;
+  height: 20px;
+   
+}
+
+#signup-btn
+{
+    background-color:#db1661;
+    width:50%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(0, 12, 8);
+      margin-right: 65px;
+}
+#signup-btn:hover
+{
+    cursor: pointer;
+    border: 1px solid black;
+} */
+
+
+#home-signup
+{
+    position: fixed;
+    top:10px;
+
+    background-color:#fd6568;
+    width:120px;
+    margin: 20px;
+    border-radius: 10px;
+    height: 25px;
+    right:180px;
+}
+#home-signin
+{
+    position: fixed;
+    top:10px;
+    right:10px;
+    background-color:#fd6568;
+    width:120px;
+    margin: 20px;
+    border-radius: 10px;
+    height: 25px;
+}
+#home-signup,#home-signin:hover
+{
+    cursor: pointer;
+}

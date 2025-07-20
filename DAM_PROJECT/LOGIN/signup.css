@@ -1,0 +1,67 @@
+.overlay
+{
+    background-color: #000;
+   
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left: 0;
+    margin: 0;
+    border-radius: 10px;
+    z-index: 1;
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://wallpapercave.com/wp/wp7443180.jpg); 
+}
+
+.body2{
+     display: flex;
+     justify-content: center;
+     margin-top: 10vh;
+     align-items: center;
+  z-index: 2;
+  position: relative;
+}
+.main2
+{
+    padding: 40px;
+ background-color: #fd6568;
+ border-radius: 15px;
+}
+.main2 table
+{
+border-radius: 15px;
+}
+.main2 #signup-heading
+{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+.main2 table
+{
+    border-spacing: 25px;
+}
+.main2 input[type="text"],input[type="password"]
+{
+  background: transparent;
+  border-radius: 7px;
+  height: 20px;
+}
+#signup-btn
+{
+    background-color:#db1661;
+    width:50%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(0, 12, 8);
+      
+}
+#signup-btn:hover
+{
+    cursor: pointer;
+    border: 1px solid black;
+}
