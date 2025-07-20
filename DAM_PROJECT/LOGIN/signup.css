@@ -1,9 +1,9 @@
 /* For tablets and below (≤ 768px) */
 @media screen and (max-width: 768px) {
     .main2 {
-        text-align:center;
+     
         width: 80%;
-        padding: 30px;
+        
     }
 
     .main2 table {
@@ -24,7 +24,6 @@
 @media screen and (max-width: 480px) {
     .body2 {
         margin-top: 15vh;
-        padding: 0 10px;
     }
 
     .main2 {
