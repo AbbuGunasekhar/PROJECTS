@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flood Severity Predictor</title>
+</head>
+<body style="font-family: Arial; padding: 20px;">
+
+    <h2>🌊 Flood Severity Predictor</h2>
+    <form method="POST" action="/predict">
+        <label>Rainfall (mm):</label><br>
+        <input type="text" name="rainfall"><br><br>
+
+        <label>Dam Level (m):</label><br>
+        <input type="text" name="dam_level"><br><br>
+
+        <label>Humidity (%):</label><br>
+        <input type="text" name="humidity"><br><br>
+
+        <label>Temperature (°C):</label><br>
+        <input type="text" name="temperature"><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction_text %}
+    <h3>{{ prediction_text }}</h3>
+    {% endif %}
+
+</body>
+</html>
